@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite'
 // service itself forwards AI/PDF calls upstream to the Node service (3000).
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/app/',
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
